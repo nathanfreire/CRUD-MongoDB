@@ -6,8 +6,23 @@ Passo 3: Criar a estrutura de pastas (sistema)
 Passo 4: Instalar o mongoose (npm i mongoose)
 Passo 5: Criar o módulo de conexão
     Atenção!!! Validar as conexões (somente conectar-se nenhuma outra conexão estiver aberta)
-Passo 6:
-Passo 7:
-Passo 8:
-Passo 9:
-Passo 10:
+Passo 6: Importar no main os metodos conectar e desconectar
+Passo 7: Criar o modelo de dados (Schema) - Clientesjs
+Passo 8: Importar no main o modelo (Schema)
+Passo 9: Criar os modelos (funções) CRUD 
+Passo 10: Estabelecer a conexão - executar os métodos - encerar a conexão
+
+_____________________________________________________________________________________________
+CRUD - mongoose 
+
+CRUD Create
+save()
+
+CRUD Read
+find()
+
+CRUD Update
+findByIdAndUpdate()
+
+CRUD Delete
+findByIdAndDelete()
